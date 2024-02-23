@@ -24,12 +24,4 @@ This application uses :
 - Free country flags in SVG (https://flagicons.lipis.dev/)
 
 # Bugs
-- Quand on fait Backspace sur le champ de saisie d'un mot sélectionné, on ne l'efface pas ! Et pas possible de quitter l'appli sauf en tapant autre chose avant de faire plusieurs fois backspace.
-
-
-# KaiOs Framework
-## `KaiOsApp` object
-Contained in `/kaiOsFramework/KaiOsApp.js` file). It contains all what is necessary to run a KaiOs app as a state machine.
-
-## `KaiOsChoiceList` object
-contained in `/kaiOsFramework/KaiOsChoiceList.js` file). This object is used to build KaiOs choice list to choose an item using the up or bottom arrow key.
+- Pressing `Backspace` on the word input field with a word selected does nothing. To clear this existing input, you have to press `Backspace` longer.

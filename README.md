@@ -1,7 +1,7 @@
 # KAI-PONS-translator
 KAIos application to get translations using the PONS dictionnary.
 
-This application uses the PONS dictionnary API (https://en.pons.com/p/online-dictionary/developers/api). You need first to create a free account and get a credential from PONS and create a `credential.js` file in the `application` directory containing the line : `const authenticationKey = "my_PONS_account_credential"`.
+This application uses the PONS dictionnary API (https://en.pons.com/p/online-dictionary/developers/api). You need first to create a free account and get a credential from PONS and create a `0_credential.js` file in the `application` directory containing the line : `const authenticationKey = "my_PONS_account_credential"`.
 
 # Use
 1) Choose the language to translate from/to using the up/down keys. Then enter the word to search for and press "chercher" to get the translation.  

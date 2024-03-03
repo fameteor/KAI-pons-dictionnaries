@@ -1,13 +1,15 @@
 {
-  "version": "0.0.5",
-  "name": "PONS dictionnaries",
-  "description": "Search in PONS dictionnaries",
+  "version": "1.0.0",
+  "name": "Dico",
+  "description": "Dico",
   "type": "privileged",
-  "permissions": {"systemXHR": {}},
+  "permissions": {
+    "systemXHR": {}
+  },
   "launch_path": "/index.html",
   "icons": {
-    "56": "/icons/kaios_56.png",
-    "112": "/icons/kaios_112.png"
+    "56": "/myApp/icons/dico_56.png",
+    "112": "/myApp/icons/dico_112.png"
   },
   "developer": {
     "name": "KaiOS Team",
@@ -15,9 +17,9 @@
   },
   "locales": {
     "fr-FR": {
-      "name": "Dictionnaires PONS",
-      "subtitle": "Recherche dans dictionnaire PONS",
-      "description": "Recherche dans dictionnaire PONS"
+      "name": "Dico",
+      "subtitle": "Dico",
+      "description": "Dico"
     }
   },
   "default_locale": "fr-FR"
